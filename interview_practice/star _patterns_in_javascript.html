@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <script>
+
+        //square pattern ...
+
+
+        var rows = prompt("Please Enter a number","");
+            
+            //function call
+            star_pattern(rows);
+
+            //function defination 
+            function star_pattern(rows){
+                for(var i = 1; i<=rows; i++ ){
+
+                    for(var j = 1; j<=rows; j++){
+                        document.write("*");
+                    }
+
+                    document.write("<br>");
+                }
+            }
+
+    </script>
+
+       
+
+
+
+        
+    <script>
+
+        //triangle_star_pattern_asscending_order...
+
+        var rows = prompt("Enter row no. = ");
+        
+
+        star_pattern(rows);
+        
+
+        function star_pattern(rows){
+            for(var i =1 ; i<=rows ; i++){
+                for(var j=1 ; j<=i ; j++){
+                  document.write("*","");
+                }
+                document.write("<br>");
+            }
+        }
+       
+        
+
+    </script>
+
+
+
+
+
+     <script>
+
+        //triangle star pattern decending order...
+
+        var rows = prompt("Enter row no. = ");
+        
+
+        star_pattern(rows);
+        
+
+        function star_pattern(rows){
+            for(var i =1 ; i<=rows ; i++){
+                for(var j=i ; j<=rows ; j++){
+                  document.write("*","");
+                }
+                document.write("<br>");
+            }
+        }
+        
+     </script>
+</body>
+</html>
